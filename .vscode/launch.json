@@ -9,6 +9,13 @@
             "name": "Riddle",
             "request": "launch",
             "mainClass": "Riddle",
+            "projectName": "TermProject_RiddleMeThis_a9c4a778"
+        },
+        {
+            "type": "java",
+            "name": "Riddle",
+            "request": "launch",
+            "mainClass": "Riddle",
             "projectName": "TermProject_RiddleMeThis_e407a60f"
         },
         {
