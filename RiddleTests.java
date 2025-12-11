@@ -231,17 +231,18 @@ public class RiddleTests {
     
     // Test 21: Test solveRiddle returns false after 10 wrong attempts
     @Test
-    public void testSolveRiddleTenAttempts() {
-        riddle.loadRiddles();
-        riddle.loadHints();
-        String testRiddle = riddle.getRiddleMap().get("ANCHOR");
-        
-        String input = "wrong\nwrong\nwrong\nn\nwrong\nn\nwrong\nn\nwrong\nwrong\nwrong\nwrong\n";
-        riddle.setScanner(new Scanner(input));
-        
-        boolean result = riddle.solveRiddle(testRiddle);
-        assertFalse("Should return false after 10 wrong attempts", result);
-    }
+public void testSolveRiddleTenAttempts() {
+    riddle.loadRiddles();
+    riddle.loadHints();
+    String testRiddle = riddle.getRiddleMap().get("ANCHOR");
+    
+    // 2 wrong without hints, then 8 wrong with "n" for each hint offer
+    String input = "wrong\nwrong\nwrong\nn\nwrong\nn\nwrong\nn\nwrong\nn\nwrong\nn\nwrong\nn\nwrong\nn\nwrong\nn\nwrong\n";
+    riddle.setScanner(new Scanner(input));
+    
+    boolean result = riddle.solveRiddle(testRiddle);
+    assertFalse("Should return false after 10 wrong attempts", result);
+}
     
     // Test 22: Test displayVictory outputs correct message
     @Test
