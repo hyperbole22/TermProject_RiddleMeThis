@@ -4,6 +4,6 @@
         "."
     ],
     "java.project.referencedLibraries": [
-        "LIB\\junit-4.13.2.jar"
+        "LIB/junit-4.13.2.jar"
     ]
 }
