@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Riddle",
+            "request": "launch",
+            "mainClass": "src.Riddle",
+            "projectName": "TermProject_RiddleMeThis_e407a60f"
+        },
+        {
+            "type": "java",
+            "name": "Riddle",
+            "request": "launch",
+            "mainClass": "Riddle",
+            "projectName": "TermProject_RiddleMeThis_e407a60f"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
