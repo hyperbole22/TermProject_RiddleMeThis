@@ -114,7 +114,7 @@ public class Riddle {
      * Main game loop - plays through all riddles
      */
     public void playGame() {
-        System.out.println(rules);
+        System.out.println(rules+"\n");
         Queue<String> riddlesToDo = selectRandomRiddles();
         
         while (!riddlesToDo.isEmpty()) {
