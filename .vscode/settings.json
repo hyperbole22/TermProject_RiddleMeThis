@@ -4,6 +4,7 @@
         "."
     ],
     "java.project.referencedLibraries": [
-        "LIB/junit-4.13.2.jar"
+        "LIB/junit-4.13.2.jar",
+        "LIB/hamcrest-core-1.3.jar"
     ]
 }
