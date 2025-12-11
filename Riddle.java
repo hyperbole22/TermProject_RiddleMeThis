@@ -123,6 +123,7 @@ public class Riddle {
             
             if (!solved) {
                 System.out.println(loss);
+                
                 return;
             }
         }
